@@ -6,3 +6,8 @@ describe('fizzbuzz', () => {
         expect(fizzBuzzer(1)).toBe("1")
     });
 })
+describe('fizzBuzzer', () => {
+    it('quand input est un multiple de 3 egale fizz ', () => {
+        expect(fizzBuzzer(3)).toBe("Fizz");
+    })
+})
