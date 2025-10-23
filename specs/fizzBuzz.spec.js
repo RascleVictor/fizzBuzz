@@ -18,3 +18,9 @@ describe('fizzBuzzer', () => {
         expect(fizzBuzzer(5)).toBe("Buzz");
     })
 })
+
+describe('fizzBuzzer', () => {
+    it('quand est un multiple de 5 et de 3 egale fizzbuzz', () => {
+        expect(fizzBuzzer(15)).toBe("FizzBuzz");
+    });
+})
